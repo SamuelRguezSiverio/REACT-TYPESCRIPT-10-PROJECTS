@@ -21,7 +21,7 @@ El objetivo de este repositorio es demostrar mis habilidades en:
 
 El repositorio está organizado en carpetas, cada una representando un proyecto completo del curso. A continuación, un listado de los proyectos con su estado actual:
 
-1. **[Proyecto 01: Carrito de Compras](./01_tshirtShop)**  
+1. **[Proyecto 01: Carrito de Compras](./01_TS_tshirtShop)**  
    - Fundamentos de React: Componentes, eventos, y manejo de estado.
    - Introducción a TypeScript en React.
 
