@@ -1,50 +1,56 @@
-# React + TypeScript + Vite
+# 🛒 Proyecto 01: Carrito de Compras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Este proyecto es una implementación de un carrito de compras utilizando **React** con **TypeScript** y **Vite** como herramienta de construcción, optimizada con **SWC**. El proyecto está estilizado con **TailwindCSS** para una creación rápida y eficiente de la interfaz de usuario.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El objetivo principal de este proyecto es demostrar la capacidad para desarrollar aplicaciones web modernas y escalables, siguiendo las mejores prácticas del desarrollo frontend. La aplicación incluye funcionalidades como la adición y eliminación de productos, ajuste de cantidades, y cálculo dinámico de precios, todo ello con un diseño responsivo que se adapta a diferentes tamaños de pantalla.
 
-## Expanding the ESLint configuration
+## Características
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Gestión del carrito**: Los usuarios pueden agregar productos, ajustar la cantidad y eliminar productos del carrito.
+- **Cálculo automático de precios**: El subtotal y el total se calculan automáticamente en función de los productos y sus cantidades.
+- **Persistencia con localStorage**: El estado del carrito se mantiene entre sesiones usando localStorage.
+- **Interfaz moderna y responsiva**: Diseño adaptado a dispositivos móviles y de escritorio, implementado con TailwindCSS.
+- **Despliegue continuo**: La aplicación está desplegada en Netlify, permitiendo verla en vivo y facilitando la integración continua.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologías Utilizadas
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React + TypeScript**: Para la construcción de la interfaz de usuario y el manejo de la lógica del proyecto.
+- **Vite + SWC**: Herramienta de desarrollo rápida y moderna, optimizada con el compilador SWC para un rendimiento superior.
+- **TailwindCSS**: Framework de utilidades CSS para un diseño ágil y eficiente.
+- **Netlify**: Plataforma de despliegue que facilita la publicación y administración de sitios web.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Demo en Vivo
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Puedes ver la aplicación en funcionamiento en el siguiente enlace:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+🔗 [tshirtsamshop.netlify.app](https://tshirtsamshop.netlify.app/)
+
+## Instalación y Uso
+
+### Requisitos
+
+- **Node.js** (v14 o superior)
+- **npm** (v6 o superior) o **yarn** como manejador de paquetes
+
+### Pasos para la Instalación
+
+1. **Clonar el repositorio**
+
+   ```bash
+   git clone https://github.com/tuusuario/nombre-del-proyecto.git
+   cd nombre-del-proyecto
+
+2. **Instalar dependencias**
+
+   ```bash
+   npm install
+
+3. **Ejecutar la aplicación**
+
+   ```bash
+   npm run dev
+
+   
+   
