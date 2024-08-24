@@ -1,6 +1,7 @@
 # 🛒 Proyecto 01: Carrito de Compras
 
-## Descripción
+## Descripción ( el código viene del [repositorio](/01_TS_tshirtShop)
+
 
 Este proyecto es una implementación de un carrito de compras utilizando **React** con **TypeScript** y **Vite** como herramienta de construcción, optimizada con **SWC**. El proyecto está estilizado con **TailwindCSS** para una creación rápida y eficiente de la interfaz de usuario.
 
