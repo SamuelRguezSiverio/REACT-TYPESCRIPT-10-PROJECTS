@@ -1,6 +1,7 @@
 import MenuItem from './components/MenuItem'
 import OrderContents from './components/OrderContents'
 import OrderTotals from './components/OrderTotals'
+import TipPercentageForm from './components/TipPercentageForm'
 import { menuItems } from './data/db'
 import useOrder from './hooks/useOrder'
 
@@ -28,7 +29,9 @@ function App() {
         <div className="p-5 space-y-10 border border-dashed rounded-lg border-slate-300">
           <OrderContents order={order} deleteItem={deleteItem} />
 
-          <OrderTotals />
+          <TipPercentageForm />
+          
+          <OrderTotals order={order} />
         </div>
       </main>
     </>
