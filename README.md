@@ -26,7 +26,7 @@ El repositorio está organizado en carpetas, cada una representando un proyecto 
    - Introducción a TypeScript en React.
 
 2. **[Proyecto 02: Calculadora de Propinas y Consumos](./02_tipsCalculator)**  
-   - Trabajando en ello...
+   - Creación de una calculadora para restaurantes con opciones de propinas.
 
 3. **Proyecto 03: Contador de Calorías y Ejercicios**  
    - Próximamente.
