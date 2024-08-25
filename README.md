@@ -25,8 +25,8 @@ El repositorio está organizado en carpetas, cada una representando un proyecto 
    - Fundamentos de React: Componentes, eventos, y manejo de estado.
    - Introducción a TypeScript en React.
 
-2. **Proyecto 02: Calculadora de Propinas y Consumos**  
-   - Próximamente.
+2. **[Proyecto 02: Calculadora de Propinas y Consumos](./02_tipsCalculator)**  
+   - Trabajando en ello...
 
 3. **Proyecto 03: Contador de Calorías y Ejercicios**  
    - Próximamente.
