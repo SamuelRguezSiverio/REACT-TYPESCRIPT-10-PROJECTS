@@ -23,7 +23,7 @@ El objetivo principal de este proyecto es demostrar la capacidad para manejar fo
 
 Puedes ver la aplicación en funcionamiento en el siguiente enlace:
 
-🌐 [Demo en vivo](https://link_to_live_demo.com)
+🔗 [samcaloriecalc.netlify.app](https://samcaloriecalc.netlify.app/)
 
 ## Instalación y Uso
 
