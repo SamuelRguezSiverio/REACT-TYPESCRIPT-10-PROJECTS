@@ -26,7 +26,7 @@ export default function Form({ dispatch, state }: FormProps) {
       )[0]
       setActivity(selectedActiveId)
     }
-  }, [state.activeId])
+  }, [state.activeId, state.activities])
 
   const handleChange = (
     e: ChangeEvent<HTMLSelectElement> | ChangeEvent<HTMLInputElement>
@@ -51,7 +51,7 @@ export default function Form({ dispatch, state }: FormProps) {
   }
   return (
     <form
-      className="space-y-5 bg-white shadow p-10 rounded-lg"
+      className="p-10 space-y-5 bg-white rounded-lg shadow"
       onSubmit={handleSubmit}
     >
       <div className="grid grid-cols-1 gap-3">
@@ -59,7 +59,7 @@ export default function Form({ dispatch, state }: FormProps) {
           Categoría:
         </label>
         <select
-          className="border border-slate-300 p-2 rounded-lg w-full bg-white"
+          className="w-full p-2 bg-white border rounded-lg border-slate-300"
           id="category"
           value={activity.category}
           onChange={handleChange}
@@ -79,7 +79,7 @@ export default function Form({ dispatch, state }: FormProps) {
         <input
           id="name"
           type="text"
-          className="border border-slate-300 p-2 rounded-lg"
+          className="p-2 border rounded-lg border-slate-300"
           placeholder="Ej. Comida, Jugo de Naranja, Ensalada, Ejercicio, Pesas, Bicicleta..."
           value={activity.name}
           onChange={handleChange}
@@ -93,7 +93,7 @@ export default function Form({ dispatch, state }: FormProps) {
         <input
           id="calories"
           type="text"
-          className="border border-slate-300 p-2 rounded-lg"
+          className="p-2 border rounded-lg border-slate-300"
           placeholder="Calorías ej. 300 o 500"
           value={activity.calories}
           onChange={handleChange}
@@ -102,7 +102,7 @@ export default function Form({ dispatch, state }: FormProps) {
 
       <input
         type="submit"
-        className="bg-gray-800 hover:bg-gray-900 w-full p-2 font-bold uppercase text-white cursor-pointer disabled:opacity-10"
+        className="w-full p-2 font-bold text-white uppercase bg-gray-800 cursor-pointer hover:bg-gray-900 disabled:opacity-10"
         value={activity.category === 1 ? 'Guardar Comida' : 'Guardar Ejercicio'}
         disabled={!isValidActivity()}
       />
