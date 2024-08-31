@@ -28,8 +28,8 @@ El repositorio está organizado en carpetas, cada una representando un proyecto 
 2. **[Proyecto 02: Calculadora de Propinas y Consumos](./02_tipsCalculator)**  
    - Creación de una calculadora para restaurantes con opciones de propinas.
 
-3. **Proyecto 03: Contador de Calorías y Ejercicios**  
-   - Próximamente.
+3. **[Proyecto 03: Contador de Calorías y Ejercicios](./03_calorieTracker/)**  
+   - Procesamiento y validación de formularios con useReducer.
 
 4. **Proyecto 04: Migrar Carrito de Compras a useReducer**  
    - Próximamente.
