@@ -1,32 +1,23 @@
-# 🍽️ Proyecto 02: Calculadora de Propinas y Consumos
+# 🧮 Proyecto 05: Migrar Calculadora de Propinas hacia useReducer
 
 ## Descripción
 
-Este proyecto es una **Calculadora de Propinas y Consumos**, diseñada para ser utilizada en entornos como restaurantes. Los usuarios pueden generar una orden con los consumos y seleccionar el porcentaje de propina que desean dejar. El objetivo principal de este proyecto es demostrar la capacidad para crear interfaces de usuario interactivas y optimizadas, enfocadas en la eficiencia y la experiencia del usuario.
+Este proyecto es la continuación del **Proyecto 02: Calculadora de Propinas y Consumos**, donde migramos el manejo de estado del formulario de calculadora de propinas hacia el Hook `useReducer`. El objetivo es optimizar la gestión de estados complejos y hacer el código más eficiente y mantenible.
 
-Este proyecto es parte de una serie de 10 que estoy desarrollando para reforzar mis habilidades en **React** y **TypeScript**, mientras continúo mi formación continua en desarrollo frontend.
+Migrar un proyecto ya conocido a una nueva tecnología como `useReducer` permite gestionar la lógica de estado de manera más estructurada, mejorando la claridad y escalabilidad del código. Este proyecto refuerza mis habilidades en **React** y **TypeScript**, aplicando mejoras de rendimiento en la gestión de formularios y validación de datos.
 
 ## Características
 
-- **Generación de órdenes**: Permite a los usuarios agregar consumos y generar una orden completa.
-- **Cálculo dinámico de propinas**: Los usuarios pueden seleccionar el porcentaje de propina que desean dejar, con el total calculado automáticamente.
-- **Custom Hook**: Implementé un Hook personalizado para gestionar la lógica repetitiva y mejorar la organización del código.
-- **Optimización de performance**: Se mejoró el rendimiento de la aplicación mediante la renderización condicional de ciertos componentes, asegurando una experiencia de usuario fluida y eficiente.
-- **Interfaz moderna y responsiva**: La interfaz está diseñada para adaptarse a cualquier dispositivo, ofreciendo una experiencia óptima tanto en móviles como en escritorios.
+- **Migración a `useReducer`**: Se ha migrado la lógica de estado de la calculadora de propinas para ser manejada mediante `useReducer`, proporcionando un control más claro y centralizado del estado.
+- **Optimización de lógica**: Esta migración mejora la capacidad de escalar la aplicación al separar la lógica de estado de los componentes y hacerla más reutilizable.
+- **Validación dinámica**: Continúa ofreciendo validación de los datos de entrada del formulario para asegurar una experiencia de usuario fluida y sin errores.
+- **Interfaz moderna y responsive**: El diseño sigue siendo intuitivo y adaptable a cualquier tipo de dispositivo gracias a **TailwindCSS**.
 
 ## Tecnologías Utilizadas
 
-- **React + TypeScript**: Desarrollo de componentes y lógica con un enfoque en la robustez y escalabilidad.
-- **Vite + SWC**: Herramienta de desarrollo rápida y moderna, optimizada con el compilador SWC para un rendimiento superior.
-- **Custom Hooks**: Para encapsular y reutilizar la lógica, promoviendo un código limpio y mantenible.
-- **TailwindCSS**: Framework de utilidades CSS para un diseño ágil y eficiente.
-- **Netlify**: Plataforma de despliegue que facilita la publicación y administración de sitios web.
-
-## Demo en Vivo
-
-Puedes ver la aplicación en funcionamiento en el siguiente enlace:
-
-🔗 [samtipscalculator.netlify.app](https://samtipscalculator.netlify.app/)
+- **React + TypeScript**: Para un desarrollo basado en componentes tipados y escalables.
+- **useReducer**: Para gestionar la lógica de estado compleja de una manera más eficiente y estructurada.
+- **TailwindCSS**: Para un diseño visual limpio, moderno y responsive.
 
 ## Instalación y Uso
 
@@ -52,6 +43,3 @@ Puedes ver la aplicación en funcionamiento en el siguiente enlace:
 
    ```bash
    npm run dev
-
-   
-   
