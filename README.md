@@ -31,11 +31,11 @@ El repositorio está organizado en carpetas, cada una representando un proyecto 
 3. **[Proyecto 03: Contador de Calorías y Ejercicios](./03_calorieTracker/)**  
    - Procesamiento y validación de formularios con useReducer.
 
-4. **Proyecto 04: Migrar Carrito de Compras a useReducer**  
-   - Próximamente.
+4. **[Proyecto 04: Migrar Carrito de Compras a useReducer](./04_TS_tshirtShop_useReducer/)**  
+   - Continuación del [Proyecto 01](./01_TS_tshirtShop) migrando el código a useReducer.
 
-5. **Proyecto 05: Migrar Calculadora de Propinas a useReducer**  
-   - Próximamente.
+5. **[Proyecto 05: Migrar Calculadora de Propinas a useReducer](./05_tipsCalculator_useReducer/)**  
+   - Continuación del [Proyecto 02](./02_tipsCalculator) migrando el código a useReducer.
 
 6. **Proyecto 06: Control de Gastos y Presupuestos**  
    - Próximamente.
