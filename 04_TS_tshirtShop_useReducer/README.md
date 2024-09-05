@@ -1,32 +1,23 @@
-# 🛒 Proyecto 01: Carrito de Compras
+# 🛒 Proyecto 04: Migrar Carrito de Compras a useReducer
 
-## Descripción ( el código viene del [repositorio](/01_tshirtShop) )
+## Descripción
 
+Este proyecto es la continuación del **Proyecto 01: Carrito de Compras**, donde migramos el manejo de estado del carrito hacia el Hook `useReducer`. El objetivo es mostrar cómo transformar un proyecto existente para gestionar estados más complejos y estructurados de manera eficiente.
 
-Este proyecto es una implementación de un carrito de compras utilizando **React** con **TypeScript** y **Vite** como herramienta de construcción, optimizada con **SWC**. El proyecto está estilizado con **TailwindCSS** para una creación rápida y eficiente de la interfaz de usuario.
-
-El objetivo principal de este proyecto es demostrar la capacidad para desarrollar aplicaciones web modernas y escalables, siguiendo las mejores prácticas del desarrollo frontend. La aplicación incluye funcionalidades como la adición y eliminación de productos, ajuste de cantidades, y cálculo dinámico de precios, todo ello con un diseño responsivo que se adapta a diferentes tamaños de pantalla.
+Migrar un proyecto conocido a una nueva tecnología, como `useReducer`, permite comprender mejor los conceptos y su aplicación en proyectos más grandes. Este proyecto es parte de una serie que refuerza mis habilidades en **React** y **TypeScript**, con un enfoque continuo en la optimización de rendimiento y código mantenible.
 
 ## Características
 
-- **Gestión del carrito**: Los usuarios pueden agregar productos, ajustar la cantidad y eliminar productos del carrito.
-- **Cálculo automático de precios**: El subtotal y el total se calculan automáticamente en función de los productos y sus cantidades.
-- **Persistencia con localStorage**: El estado del carrito se mantiene entre sesiones usando localStorage.
-- **Interfaz moderna y responsiva**: Diseño adaptado a dispositivos móviles y de escritorio, implementado con TailwindCSS.
-- **Despliegue continuo**: La aplicación está desplegada en Netlify, permitiendo verla en vivo y facilitando la integración continua.
+- **Migración a `useReducer`**: El proyecto ahora utiliza `useReducer` para manejar el estado del carrito de compras, proporcionando una forma más clara y estructurada de gestionar la lógica de estado.
+- **Gestión eficiente del estado**: `useReducer` permite centralizar la lógica del estado, mejorando la capacidad de mantener y escalar la aplicación.
+- **Optimización de código**: Esta migración mejora la claridad y la modularidad del código, haciéndolo más fácil de mantener y optimizar.
+- **Interfaz intuitiva y responsiva**: La interfaz sigue siendo moderna y adaptativa, asegurando una experiencia de usuario agradable en cualquier dispositivo.
 
 ## Tecnologías Utilizadas
 
-- **React + TypeScript**: Para la construcción de la interfaz de usuario y el manejo de la lógica del proyecto.
-- **Vite + SWC**: Herramienta de desarrollo rápida y moderna, optimizada con el compilador SWC para un rendimiento superior.
-- **TailwindCSS**: Framework de utilidades CSS para un diseño ágil y eficiente.
-- **Netlify**: Plataforma de despliegue que facilita la publicación y administración de sitios web.
-
-## Demo en Vivo
-
-Puedes ver la aplicación en funcionamiento en el siguiente enlace:
-
-🔗 [tshirtsamshop.netlify.app](https://tshirtsamshop.netlify.app/)
+- **React + TypeScript**: Para asegurar un desarrollo tipado y escalable.
+- **useReducer**: Para manejar estados complejos de una manera más estructurada y eficiente.
+- **TailwindCSS**: Para un diseño moderno, limpio y responsive.
 
 ## Instalación y Uso
 
@@ -52,6 +43,3 @@ Puedes ver la aplicación en funcionamiento en el siguiente enlace:
 
    ```bash
    npm run dev
-
-   
-   
